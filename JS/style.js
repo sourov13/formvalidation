@@ -130,7 +130,7 @@ function checkDistrictName(){
         return true;
     }
 }
-
+// Form validation while submitting 
 $('#form').submit(function () {
    if (checkFirstName()== true && checkLastName()== true && checkEmailAddress()== true && checkPassword()== true && checkConfirmPassword()== true && checkGenderInfo()== true && checkDistrictName()== true){
        alert('submitted');
@@ -150,7 +150,7 @@ $('#form').submit(function () {
 
 
 
-
+// Scoll Menu 
 $(window).scroll(function () {
 
     var winScroll = $(window).scrollTop();
