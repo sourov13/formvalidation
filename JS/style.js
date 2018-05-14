@@ -1,3 +1,4 @@
+// Take first name from FORM
 function checkFirstName(){
     var firstname = $('#firstname').val();
     var reg = /^[a-zA-Z -.]{2,10}$/;
@@ -12,12 +13,12 @@ function checkFirstName(){
 }
 
 
-
+// Call first name function
 $('#firstname').keyup(function(){
     checkFirstName();
 });
 
-
+// Take first name from FORM
 function checkLastName() {
     var lastname = $('#lastname').val();
     var reg = /^[a-zA-Z -.]{2,10}$/;
@@ -31,7 +32,7 @@ function checkLastName() {
     }
 
 }
-
+// call lastname function
 $('#lastname').keyup(function(){
     checkLastName();
 });
