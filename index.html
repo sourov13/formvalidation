@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css"
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+
+            <div class="logo col-3 header"></div>
+            <div class="banner col-9 header"></div>
+        </div>
+
+
+    <div class="row">
+        <div class="slider col-12">
+            <div class="menu" id="menu">
+                <ul id="menuUl">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+            <div class="content-left col-3 content"></div>
+            <div class="content-right col-9 content">
+                <form action="" method="post" id="form">
+                    <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td>
+                            <input type="text" id="firstname">
+                            <span id="firstNameError"></span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Last Name</td>
+                        <td>
+                            <input type="text" id="lastname">
+                            <span id="lastNameError"></span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Email Address</td>
+                        <td>
+                            <input type="email" id="emailaddress">
+                            <span id="emailAddressError"></span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Password</td>
+                        <td>
+                            <input type="password" id="password">
+                            <input type="checkbox" id="showHide">Show Password
+                            <span id="passwordError"></span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Confirm Password</td>
+                        <td>
+                            <input type="password" id="confirmpassword">
+                            <span id="confirmPasswordError"></span>
+                        </td>
+                    </tr>
+
+                        <tr>
+                            <td>Gender info</td>
+                            <td>
+                               <input type="radio" name="gender" value="male"> Male
+                                <input type="radio" name="gender" value="female">Female
+                                <span id="genderError"></span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> District Name</td>
+                            <td>
+                                <select id="district">
+                                    <option value=' '>Select a District...</option>
+                                    <option value ='Dhaka'> Dhaka</option>
+                                    <option value ='Dinajpur'> Dhaka</option>
+                                    <option value ='Rongpur'> Dhaka</option>
+                                    <option value ='Tangail'> Dhaka</option>
+                                </select>
+                                <span id="districtError"></span>
+                            </td>
+                        </tr>
+                        <td>
+                        <input type="submit" name="btn" id="btn" value="Submit"/>
+                        </td>
+                    </table>
+                </form>
+            </div>
+    </div>
+
+    <div class="row">
+        <div class="footer col-12"></div>
+    </div>
+</div>
+
+<script src="JS/jquery-3.3.1.js"></script>
+<script src="JS/style.js"></script>
+</body>
+</html>
